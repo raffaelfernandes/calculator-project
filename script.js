@@ -20,3 +20,15 @@ function calcular() {
         document.getElementById('resultado') = "Nada para calcular"
     }
 }
+
+function modo_claro(){
+    document.getElementById('fundo').style.backgroundImage = "linear-gradient(45deg, rgb(0, 101, 252), rgb(207, 235, 247))";
+    document.getElementById('fundo').style.color = "white";
+    document.getElementById('resultado').style.backgroundColor = "white";
+}
+
+function modo_escuro(){
+    document.getElementById('fundo').style.backgroundImage = "linear-gradient(45deg, rgb(3, 21, 48), rgb(3, 96, 136))";
+    document.getElementById('fundo').style.color = "rgb(151, 151, 151)";
+    document.getElementById('resultado').style.backgroundColor = "rgb(151, 151, 151)";
+}
